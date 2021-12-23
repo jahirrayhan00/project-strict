@@ -1,0 +1,2 @@
+# project-strict
+home work
