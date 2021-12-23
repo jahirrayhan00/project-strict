@@ -1,0 +1,256 @@
+@font-face{
+	font-family: 'Lato', sans-serif;
+	src:url(../fonts/Lato/Lato-Bold.ttf) ;
+}
+@font-face{
+	font-family: 'Lato', sans-serif;
+	src:url(../fonts/Lato/Lato-Regular.ttf) ;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #999999;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+    width: 80%;
+    /*border: 1px solid;*/
+    overflow: hidden;
+}
+
+.header-content {
+}
+
+.logo {
+	width: 20%;
+}
+.logo a{
+	color: #2d3950;
+}
+.logo img {
+	display: block;
+	margin-top: 10px;
+	float: left;
+
+}
+.logo h3{
+	padding: 10px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-box-shadow: inset -2px 3px 30px 3px rgba(0,0,0,0.77);
+-moz-box-shadow: inset -2px 3px 30px 3px rgba(0,0,0,0.77);
+box-shadow: inset -2px 3px 30px 3px rgba(0,0,0,0.77);
+	width: 100%;
+	height: 800px;
+}
+
+.b-title{
+	padding-top: 220px;
+	text-align: center;
+		color: white;
+
+}
+.b-title span {
+	border-bottom: 1px solid #15a4fa;
+	font-size: 120px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 120px
+
+}
+.b-title p{
+	padding: 40px 0;
+}
+/*banner end*/
+/*simple start*/
+.simple{
+	padding: 70px 0;
+	background-color: #f6f9f9;
+}
+.sim-content{
+    text-align: center;
+
+}
+.sim-content span{
+	color: black;
+	font-size: 40px;
+}
+.sim-content p{
+	padding: 35px 0;
+	line-height: 2;
+}
+
+/*simple end*/
+/*service start*/
+.sevice{
+	padding: 70px 0;
+}
+.single{
+	 margin-left: 4.7%;
+	float: left;
+	width: 30%;
+	/*border: 1px solid;*/
+	padding: 70px 0
+
+
+}
+
+.sing-cont{
+	text-align: center;
+}
+.sing-img{}
+.sing-img img{
+
+}
+.sing-cont h2{
+	font-size: 22px;
+	font-weight: 400;
+	color: black;
+	padding: 30px 0;
+}
+.sing-cont p{
+	line-height: 1.5;
+}
+.single-f-child{
+	margin-left: 0px;
+}
+/*service end*/
+/*about us start*/
+.about-us{
+	    padding: 70px 0 50px;
+	background-color: #f6f9f9;
+}
+.ab-title{
+	    text-align: center;
+}
+.ab-title h1{
+	font-size: 41px;
+	font-weight: 400;
+	color: black;
+}
+.ab-title p{
+	padding: 30px 0;
+}
+.ab-img{
+	    padding: 30px 0;
+	
+}
+.img-wrapper{
+
+	
+
+}
+.single-im{
+	padding-bottom: 30px;
+	padding-right: 2%;
+	width: 31%;
+	float: left;
+}
+.blog3-6{
+	padding-right: 0;
+}
+.single-im img{
+	
+	width: 100%;
+}
+
+
+
+/*about us end*/
+/*Stay with us start*/
+.stay-with-us{
+	padding: 70px 0;
+	width: 100%;
+	height: 700px;
+	background: url(../images/form-img.jpg);
+}
+.stay-cont{}
+.stay-title{
+	text-align: center;
+}
+.stay-title h2{
+	font-size: 41px;
+	color: white;
+}
+.stay-title p{
+	padding: 25px 0 50px;
+}
+.stay-form{}
+.stay-form form{
+	    margin-left: 23%;
+}
+.stay-form input{
+	    padding: 25px 20px;
+    width: 63%;
+    display: block;
+    background: transparent;
+    margin-bottom: 20px;
+    color: #999999;
+    border: 1px solid #999999;
+}
+.stay-form button{
+	margin-left: 248px;
+    padding: 15px 50px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    color: white;
+    cursor: pointer;
+}
+.f-input{}
+.f-input input{
+	margin-bottom: 30px;
+	padding-bottom: 160px;
+}
+.stay-form label{
+	
+
+}
+.f-radio{}
+.f-radio input{
+	width: 5%;
+	 
+	display: inline-block;
+	
+}
+
+/*Stay with us end*/
+/*footer start*/
+footer{
+	padding: 35px 0;
+}
+.l-cont{
+	float: left;
+}
+.l-cont p{
+	    margin-top: 12px;
+	margin-left: 30px;
+}
+.r-cont{
+	margin-right: 40px;
+	float: right;
+}
+.r-cont img{}
+.r-cont a{
+	    float: left;
+    display: block;
+    margin-right: 10px;
+}
+/*footer end*/
